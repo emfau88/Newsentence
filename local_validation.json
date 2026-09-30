@@ -172,7 +172,21 @@
     "LOD1/LOD2 and full viewer: missing archive portion",
     "Hero/background height transition: master and height reference unavailable",
     "Screenshots: not yet extracted",
-    "Repository contents, AGENTS.md, main branch, write access and LFS quota: GitHub unreachable",
-    "Commit, push and remote files: not performed"
-  ]
+    "Full model upload and LFS capacity: pending complete ZIP"
+  ],
+  "transfer_verification": {
+    "checked_at_utc": "2026-09-30T08:52:19.894610+00:00",
+    "repository": "https://github.com/emfau88/Newsentence",
+    "default_branch": "main",
+    "verified_documentation_commit": "b6bb6c6c9bf1ec506034424d41e9320f12945955",
+    "actual_git_push": "success outside sandbox using Windows GitHub authentication",
+    "fresh_clone_files_verified": [
+      "README.md",
+      "TECHNIK.md",
+      "CINEMATIC.md",
+      "local_validation.json",
+      "build_tools/LGL_DATA_LICENSE.txt"
+    ],
+    "complete_project_uploaded": false
+  }
 }

@@ -1,0 +1,12 @@
+Neusatz WebGL Master Builder – Datenhinweis
+
+Die Builder-Software selbst enthält keine LGL-Rohdaten.
+
+Für die durch den Builder geladenen amtlichen Geodaten gilt die jeweilige
+Lizenzangabe des LGL Open GeoData Portals. Nach aktuellem Portalhinweis:
+
+Datenlizenz Deutschland – Namensnennung – Version 2.0
+Namensnennung:
+"Datenquelle: LGL, www.lgl-bw.de, dl-de/by-2-0"
+
+Die erzeugte GLB ist eine bearbeitete/konvertierte Darstellung dieser Daten.

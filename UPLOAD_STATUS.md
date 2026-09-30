@@ -1,19 +1,15 @@
-# Übertragungsstand – 30. September 2026
+# Übernahme und Prüfung – 30. September 2026
 
-Der echte Git-Push ist erfolgreich. Die deutsche Dokumentation wurde auf `main` übertragen und durch einen frischen Clone geprüft. Der erste Dokumentationscommit ist `b6bb6c6c9bf1ec506034424d41e9320f12945955`. `main` ist der Standardbranch; der temporäre Schreibtestbranch wurde wieder entfernt.
+Die fünf lokalen ZIP-Teile wurden in numerischer Reihenfolge zusammengesetzt. Ergebnis: 277.953.897 Bytes, 70 vollständige Archiveinträge, alle ZIP-CRC-Prüfungen erfolgreich. SHA256 des zusammengesetzten Quellarchivs: `8ffa862eba653d209a3433bb8b943684bb95d7617d624ff1a80f942241d99327`.
 
-Die GitHub-Anmeldung für emfau88 funktioniert außerhalb der Sandbox. Der innerhalb der Sandbox beobachtete HTTP-401-Fehler beschreibt daher nicht den dort verfügbaren Windows-Zugriff. Es ist keine neue GitHub-Freigabe nötig, um diesen bereits bestätigten Git-Push zu wiederholen.
+Der vollständige Projektstand enthält LOD0, LOD1, LOD2, Texturen, lokalen Three.js-Viewer, Kameravoreinstellungen, Build-Werkzeuge, Höhenreferenz, ursprüngliche Paketberichte und sämtliche ursprünglichen Screenshots. Die ausführliche ursprüngliche README bleibt byteidentisch als TECHNIK.md erhalten. Die neue README enthält eine echte 3D-Vorschau; CINEMATIC.md beschreibt die sichtbaren Grenzen und den bevorzugten Testshot-Workflow.
 
-## Noch kein vollständiges Projekt
+Alle 19 GLBs wurden gegen das vollständige Quellpaket geprüft und sind byteidentisch. Der Master hat SHA256 `2410276ddc0e2efd73db3ef0f0eb9f64d4cc4f1fc44bec5e68aeef6cdff3e01b`. Er liegt im Repository in drei unveränderten Binärteilen und wird vom Startskript offline zur Originaldatei zusammengesetzt. Die Rekonstruktion wurde byteweise gegen das Original geprüft. Siehe STORAGE.md.
 
-Die bereitgestellte Datei `C:\Users\madde\Downloads\Neusatz_Hero_LOD_Paket.zip` ist weiterhin unvollständig: 159.646.814 Bytes, unverändert seit 10:12 Uhr, kein ZIP-Abschlussverzeichnis. Python meldet `BadZipFile: File is not a zip file`. Der Eintrag `lod1/neusatz_master.glb` endet vorzeitig; laut lokalem ZIP-Header sollte der vollständige Master 110.712.508 Bytes haben.
+Lokale Geometrieprüfung: 16 Terrain-Kacheln, 7.968.032 Terrain-Dreiecke und 22.833 Gebäudedreiecke; Kachelpositionen und Normalen stimmen exakt überein; alle Terrain-Texturen sind 2499 × 2499 Pixel groß. Die unabhängige Außenrandprüfung zum Master ergibt maximal 0,000030517578125 m Höhenabweichung. Koordinatenformel, Maskierung, Gebäudefilterung, Überlappung, Tiefenbias und Kantenabdichtung bleiben erhalten. Die Viewer-Datei ist gegenüber dem Quellpaket unverändert.
 
-Nur vollständige lokale ZIP-Einträge wurden CRC-geprüft extrahiert. Alle 16 LOD0-Kacheln und die Gebäudedatei wurden unabhängig geprüft und nicht verändert. Kachelpositionen und Normalen stimmen exakt überein; Dreieckzahlen, Texturgrößen und lokale Grenzen entsprechen den Paketangaben. Siehe `local_validation.json`.
+Aktuelle Browserprüfung: LOD0, LOD1 und LOD2 jeweils mit Übersicht, niedrigem Anflug, Dorf-Nahansicht und Randkamera, zwölf gespeicherte Screenshots; Rückwechsel zu LOD0 erfolgreich. Keine Fehler oder Warnungen im erfassten Browserprotokoll. Details: current_browser_validation.json und screenshots/current_lod*.png. Die Prüfung im Codex-Browser ist kein Hardware-Leistungsbenchmark und keine Vermessungskontrolle einzelner Fassaden.
 
-Die vollständigen Master-/LOD2-Dateien, manifest.json, validation.json, Höhenreferenz, Screenshots, Startskript und Vendor-Dateien fehlen noch aus dem lesbaren ZIP-Teil. Die Viewer-Oberfläche wurde lokal geöffnet; die drei Vendor-Module lieferten HTTP 404. Kein aktueller erfolgreicher 3D-/LOD-Durchlauf, keine aktuelle Screenshot-Bewertung und keine Master-Prüfsumme werden behauptet.
+Der reale Git-Schreibzugriff wurde bereits bestätigt. Die Änderungen werden mit erhaltener Commit-Historie auf main übertragen und anschließend durch einen frischen Clone einschließlich Modellrekonstruktion und SHA256-Abgleich kontrolliert. Die endgültige Commit-ID und das Ergebnis der Remote-Prüfung werden im Abschluss genannt.
 
-## Nötiger nächster Schritt
-
-Den ursprünglichen ZIP-Download vollständig abschließen oder ein vollständiges Ersatz-ZIP bereitstellen. Danach werden das ganze Archiv und die Paketberichte geprüft, alle Modelle einschließlich Master bytegenau übernommen, die LFS-Kapazität geprüft, echte Vorschaubilder eingebunden, Kamera-/LOD- und Übergangsprüfungen durchgeführt und der vollständige Projektstand auf `main` übertragen und frisch heruntergeladen kontrolliert.
-
-Es wurden bislang nur Dokumentation, LGL-Datenhinweis und Prüfbericht hochgeladen. Keine fehlenden Modell-Pointer, keine kostenpflichtigen Leistungen, kein Force-Push, keine generischen Bäume und keine Modelltransformationen. Die LFS-Konfiguration und der vollständige Projektupload bleiben bis zum fertigen ZIP offen.
+Keine LFS-Pointer, keine kostenpflichtigen Leistungen, kein Force-Push, keine generischen Bäume, keine Modelltransformationen und keine vollständige Cinematic-Produktion.

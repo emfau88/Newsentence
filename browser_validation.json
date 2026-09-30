@@ -1,0 +1,95 @@
+{
+  "views": [
+    {
+      "lod": 0,
+      "camera": "overview",
+      "ready": true,
+      "triangles": 11031534,
+      "maxTextureSize": 8192
+    },
+    {
+      "lod": 0,
+      "camera": "approach",
+      "ready": true,
+      "triangles": 11031534,
+      "maxTextureSize": 8192
+    },
+    {
+      "lod": 0,
+      "camera": "village",
+      "ready": true,
+      "triangles": 11031534,
+      "maxTextureSize": 8192
+    },
+    {
+      "lod": 0,
+      "camera": "seam",
+      "ready": true,
+      "triangles": 11031534,
+      "maxTextureSize": 8192
+    },
+    {
+      "lod": 1,
+      "camera": "overview",
+      "ready": true,
+      "triangles": 2999669,
+      "maxTextureSize": 8192
+    },
+    {
+      "lod": 1,
+      "camera": "approach",
+      "ready": true,
+      "triangles": 2999669,
+      "maxTextureSize": 8192
+    },
+    {
+      "lod": 1,
+      "camera": "village",
+      "ready": true,
+      "triangles": 2999669,
+      "maxTextureSize": 8192
+    },
+    {
+      "lod": 1,
+      "camera": "seam",
+      "ready": true,
+      "triangles": 2999669,
+      "maxTextureSize": 8192
+    },
+    {
+      "lod": 2,
+      "camera": "overview",
+      "ready": true,
+      "triangles": 842069,
+      "maxTextureSize": 8192
+    },
+    {
+      "lod": 2,
+      "camera": "approach",
+      "ready": true,
+      "triangles": 842069,
+      "maxTextureSize": 8192
+    },
+    {
+      "lod": 2,
+      "camera": "village",
+      "ready": true,
+      "triangles": 842069,
+      "maxTextureSize": 8192
+    },
+    {
+      "lod": 2,
+      "camera": "seam",
+      "ready": true,
+      "triangles": 842069,
+      "maxTextureSize": 8192
+    }
+  ],
+  "page_errors": [],
+  "console": [],
+  "browser": "Chrome for Testing 154 / SwiftShader software WebGL",
+  "mobile_viewport": [
+    390,
+    844
+  ]
+}

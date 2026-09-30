@@ -1,103 +1,18 @@
 {
-  "checked_at_utc": "2026-09-30T08:19:48.516522+00:00",
-  "scope": "Independent local checks of complete extracted LOD0 files; original package reports kept unchanged",
-  "terrain_tiles": 16,
-  "terrain_triangles": 7968032,
-  "building_triangles": 22833,
-  "tile_seams_max_position_error_m": 0.0,
-  "tile_seams_max_normal_error": 0.0,
-  "textures": [
-    [
-      2499,
-      2499
-    ],
-    [
-      2499,
-      2499
-    ],
-    [
-      2499,
-      2499
-    ],
-    [
-      2499,
-      2499
-    ],
-    [
-      2499,
-      2499
-    ],
-    [
-      2499,
-      2499
-    ],
-    [
-      2499,
-      2499
-    ],
-    [
-      2499,
-      2499
-    ],
-    [
-      2499,
-      2499
-    ],
-    [
-      2499,
-      2499
-    ],
-    [
-      2499,
-      2499
-    ],
-    [
-      2499,
-      2499
-    ],
-    [
-      2499,
-      2499
-    ],
-    [
-      2499,
-      2499
-    ],
-    [
-      2499,
-      2499
-    ],
-    [
-      2499,
-      2499
-    ]
-  ],
-  "local_bounds_xz": [
-    -997.5,
-    -1198.5,
-    998.5,
-    797.5
-  ],
-  "files": [
+  "archive_sha256": "8ffa862eba653d209a3433bb8b943684bb95d7617d624ff1a80f942241d99327",
+  "archive_entries": 70,
+  "archive_crc": "passed",
+  "all_19_model_files_byte_identical": true,
+  "models": [
+    {
+      "path": "lod0/buildings.glb",
+      "bytes": 780888,
+      "sha256": "5abf8428c4f68c53eadfb795348b48577cb48ae06ac800fb553a3eeeac77330d"
+    },
     {
       "path": "lod0/terrain_0_0.glb",
       "bytes": 17137712,
       "sha256": "ce1ac6b05e8a38e4af0ce2c74e29db700efefca41c466a7c4b220e2672859ebd"
-    },
-    {
-      "path": "lod0/terrain_1_0.glb",
-      "bytes": 17334752,
-      "sha256": "9b7407a200aea002576d739f40429f7c94a5a04a2eceeff8f232009b7c1c1c3f"
-    },
-    {
-      "path": "lod0/terrain_2_0.glb",
-      "bytes": 17393500,
-      "sha256": "762e5b8dad165b428a2c2624878511a5efd1e312372ed3a98f253c37f1f50c5b"
-    },
-    {
-      "path": "lod0/terrain_3_0.glb",
-      "bytes": 17340776,
-      "sha256": "68f393911ec96fcc5b5eaa0b9627c56126937d3d874d39773c27114971c386eb"
     },
     {
       "path": "lod0/terrain_0_1.glb",
@@ -105,39 +20,9 @@
       "sha256": "5070fdfe96a0d8d7a76f271647028e5edf423f87faca7d607e52a91ecedb14ee"
     },
     {
-      "path": "lod0/terrain_1_1.glb",
-      "bytes": 17147672,
-      "sha256": "1e751416be63f1f9194ee97df6d0329f58df84670e8f7336fd3c64e9df5ce541"
-    },
-    {
-      "path": "lod0/terrain_2_1.glb",
-      "bytes": 16995476,
-      "sha256": "cc08c6af44a3a4f8c68205a197b7858704b0f0e93791d5b8bd4565b3bac7090c"
-    },
-    {
-      "path": "lod0/terrain_3_1.glb",
-      "bytes": 17393672,
-      "sha256": "a8096a730b2781dcfb24e66ed3a5dedd3dc0c0ddde11c5b3fa60782c6097130e"
-    },
-    {
       "path": "lod0/terrain_0_2.glb",
       "bytes": 16757044,
       "sha256": "8a0f2318ac6766f85fc96341c4d1173e25f073a77e55d6c882233af4a145ac7d"
-    },
-    {
-      "path": "lod0/terrain_1_2.glb",
-      "bytes": 17380156,
-      "sha256": "47ab0ec78e5b86ae310cbca94401fdf3ff3e8dcd3d57cc99219248fb3b22dc46"
-    },
-    {
-      "path": "lod0/terrain_2_2.glb",
-      "bytes": 17049736,
-      "sha256": "aaca9154d18cb95c359775cfa69b3628d03ea5a29d259f2a815de951cb2406c4"
-    },
-    {
-      "path": "lod0/terrain_3_2.glb",
-      "bytes": 17173064,
-      "sha256": "c1e7974d731d2767aae41cd9976d557e93044089f154540a63fc70dca12755e6"
     },
     {
       "path": "lod0/terrain_0_3.glb",
@@ -145,9 +30,39 @@
       "sha256": "7270260b1bfcdd3cedcfd4be2e7a27541a9000b33e4cdb408fea23f7ba9a3273"
     },
     {
+      "path": "lod0/terrain_1_0.glb",
+      "bytes": 17334752,
+      "sha256": "9b7407a200aea002576d739f40429f7c94a5a04a2eceeff8f232009b7c1c1c3f"
+    },
+    {
+      "path": "lod0/terrain_1_1.glb",
+      "bytes": 17147672,
+      "sha256": "1e751416be63f1f9194ee97df6d0329f58df84670e8f7336fd3c64e9df5ce541"
+    },
+    {
+      "path": "lod0/terrain_1_2.glb",
+      "bytes": 17380156,
+      "sha256": "47ab0ec78e5b86ae310cbca94401fdf3ff3e8dcd3d57cc99219248fb3b22dc46"
+    },
+    {
       "path": "lod0/terrain_1_3.glb",
       "bytes": 17248252,
       "sha256": "09e15db2e4b8fb0ecd28010f5ae1419dca384e9423ac54152014aed2a9d6c5ea"
+    },
+    {
+      "path": "lod0/terrain_2_0.glb",
+      "bytes": 17393500,
+      "sha256": "762e5b8dad165b428a2c2624878511a5efd1e312372ed3a98f253c37f1f50c5b"
+    },
+    {
+      "path": "lod0/terrain_2_1.glb",
+      "bytes": 16995476,
+      "sha256": "cc08c6af44a3a4f8c68205a197b7858704b0f0e93791d5b8bd4565b3bac7090c"
+    },
+    {
+      "path": "lod0/terrain_2_2.glb",
+      "bytes": 17049736,
+      "sha256": "aaca9154d18cb95c359775cfa69b3628d03ea5a29d259f2a815de951cb2406c4"
     },
     {
       "path": "lod0/terrain_2_3.glb",
@@ -155,38 +70,50 @@
       "sha256": "d28fb44001b6988510c6c4fb7259bc9f3dd4a580451e6035108c7c28532ece64"
     },
     {
+      "path": "lod0/terrain_3_0.glb",
+      "bytes": 17340776,
+      "sha256": "68f393911ec96fcc5b5eaa0b9627c56126937d3d874d39773c27114971c386eb"
+    },
+    {
+      "path": "lod0/terrain_3_1.glb",
+      "bytes": 17393672,
+      "sha256": "a8096a730b2781dcfb24e66ed3a5dedd3dc0c0ddde11c5b3fa60782c6097130e"
+    },
+    {
+      "path": "lod0/terrain_3_2.glb",
+      "bytes": 17173064,
+      "sha256": "c1e7974d731d2767aae41cd9976d557e93044089f154540a63fc70dca12755e6"
+    },
+    {
       "path": "lod0/terrain_3_3.glb",
       "bytes": 17084540,
       "sha256": "3dddccc5248ec3a003d4b10191bfe2b2b4d764d0b2b556597f97f7c55ebca5a5"
     },
     {
-      "path": "lod0/buildings.glb",
-      "bytes": 780888,
-      "sha256": "5abf8428c4f68c53eadfb795348b48577cb48ae06ac800fb553a3eeeac77330d"
+      "path": "lod1/neusatz_master.glb",
+      "bytes": 110712508,
+      "sha256": "2410276ddc0e2efd73db3ef0f0eb9f64d4cc4f1fc44bec5e68aeef6cdff3e01b"
+    },
+    {
+      "path": "lod2/neusatz_web.glb",
+      "bytes": 31841464,
+      "sha256": "79a1656ee2a6bbf58bb280a0945dc7025c85cd066669a3d87c75589a2cfc7156"
     }
   ],
-  "unverified": [
-    "ZIP central directory and full integrity: incomplete download",
-    "manifest.json and validation.json: not yet present in readable archive portion",
-    "Master SHA256 and byte preservation: master archive entry incomplete",
-    "LOD1/LOD2 and full viewer: missing archive portion",
-    "Hero/background height transition: master and height reference unavailable",
-    "Screenshots: not yet extracted",
-    "Full model upload and LFS capacity: pending complete ZIP"
-  ],
-  "transfer_verification": {
-    "checked_at_utc": "2026-09-30T08:52:19.894610+00:00",
-    "repository": "https://github.com/emfau88/Newsentence",
-    "default_branch": "main",
-    "verified_documentation_commit": "b6bb6c6c9bf1ec506034424d41e9320f12945955",
-    "actual_git_push": "success outside sandbox using Windows GitHub authentication",
-    "fresh_clone_files_verified": [
-      "README.md",
-      "TECHNIK.md",
-      "CINEMATIC.md",
-      "local_validation.json",
-      "build_tools/LGL_DATA_LICENSE.txt"
-    ],
-    "complete_project_uploaded": false
+  "master_parts_offline_reassembly": "passed; exact bytes match original",
+  "terrain_validation": "passed",
+  "independent_perimeter_max_height_error_m": 3.0517578125e-05,
+  "coordinates": {
+    "X": "E-462000",
+    "Y": "NHN-290",
+    "Z": "5407000-N"
+  },
+  "terrain_masks_and_skirts": "original index.html retained byte-identically",
+  "browser_validation": {
+    "report": "current_browser_validation.json",
+    "actual_ui_views": 12,
+    "all_ready": true,
+    "return_to_lod0": "passed",
+    "observed_console_errors_and_warnings": 0
   }
 }

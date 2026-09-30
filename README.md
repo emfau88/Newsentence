@@ -1,29 +1,35 @@
-# Neusatz – Cinematic-Projekt
+# Neusatz – Cinematic-Grundlage
 
-Geografisch detaillierte Grundlage für einen vorgerenderten Neusatz-Cinematic mit einer knapp 2 × 2 km großen Hero-Zone und einem 6 × 6 km großen Hintergrund.
+Geografisch detaillierte 3D-Basis für einen vorgerenderten Neusatz-Cinematic: eine hochaufgelöste Hero-Zone, ein großflächiger Hintergrund und amtliche Gebäudekörper. Enthalten sind alle Modelle, ein lokaler Three.js-Testviewer, Kameravoreinstellungen, Build-Werkzeuge, Prüfberichte und echte WebGL-Screenshots.
 
-**Übernahme läuft: Die vollständigen Modelldaten sind noch nicht hochgeladen.** Das bereitgestellte ZIP ist derzeit unvollständig; es endet mitten in `neusatz_master.glb`. Der GitHub-Push wurde erfolgreich getestet. Dieses erste Commit enthält die vorbereitete Dokumentation und den tatsächlichen lokalen Prüfstand. Es enthält keine LFS-Pointer auf fehlende Modelle.
+![Echte 3D-Übersicht der Neusatz-Hero-Zone](screenshots/lod0_overview_3d.png)
 
-| Stufe | Vorgesehener Paketinhalt |
+| Stufe | Inhalt |
 | --- | --- |
-| LOD0 | 16 Hero-Terrain-Kacheln mit 1-m-Raster, DOP20 mit 20 cm/Pixel, vollständige LoD2-Gebäude |
+| LOD0 | Knapp 2 × 2 km, 16 Terrain-Kacheln mit 1-m-Raster und DOP20 mit 20 cm/Pixel; 816 vollständige LoD2-Gebäude |
 | LOD1 | Bytegenau erhaltener 6 × 6 km Background-Master |
-| LOD2 | Leichtere Fernansicht |
+| LOD2 | Leichtere 6 × 6 km Fernansicht |
 
-Zusätzlich vorgesehen: lokaler Three.js-Testviewer, Kameravoreinstellungen, Build-Werkzeuge, Prüfberichte und echte WebGL-Vorschaubilder. Die vollständigen Roharchive gehören nicht zum Paket.
+## Start
 
-## Start nach vollständiger Übernahme
+Repository vollständig klonen oder über **Code → Download ZIP** herunterladen und entpacken. Python 3.11 oder neuer ist erforderlich. Unter Windows `Start_Viewer.bat` öffnen; alternativ im Projektordner:
 
-Nach vollständigem Download aller Projektdateien und gegebenenfalls LFS-Objekte unter Windows `Start_Viewer.bat` öffnen oder im Projektordner `python start_viewer.py` ausführen (Python 3 erforderlich). Dann <http://localhost:8080> öffnen. Diese Startdateien werden mit der noch fehlenden ZIP-Hälfte übernommen; der aktuelle Dokumentationsstand ist noch nicht startbar.
+```sh
+python start_viewer.py
+```
 
-## Qualität und Prüfung
+Dann <http://localhost:8080> öffnen. Der Start setzt den Master automatisch aus drei geprüften Binärteilen zusammen; Git LFS und zusätzliche Python-Pakete sind für den Viewer nicht nötig. Three.js und alle Texturen liegen lokal bei. Übersicht, niedrigen Anflug, Dorf-Nahansicht und Übergangsrand über die Kameratasten wählen; das Auswahlfeld wechselt die LODs bei identischer Kamera.
 
-Die bereits vollständig extrahierten LOD0-Dateien wurden unverändert geprüft: 16 Terrain-Kacheln mit insgesamt 7.968.032 Dreiecken, Gebäude mit 22.833 Dreiecken, exakt übereinstimmende Kachelpositionen und Normalen, 16 Texturen mit jeweils 2499 × 2499 Pixeln. [Lokaler Prüfbericht](local_validation.json). Master-Prüfsumme, Background-Übergang, aktuelle Kamera-/LOD-Durchläufe und echte Vorschaubilder bleiben bis zum vollständigen ZIP offen.
+Für Blender oder Build-Werkzeuge zuerst `python prepare_models.py` ausführen. Der Master liegt danach regulär unter `lod1/neusatz_master.glb`. [Speicherung und Prüfsumme](STORAGE.md).
 
-Die geografische Genauigkeit ersetzt keinen Fotorealismus: Vegetation, Fassadenoberflächen, Licht und Kamera müssen für den sichtbaren Bereich ausgearbeitet werden. Der bevorzugte nächste Qualitätsschritt ist ein vollständig ausgearbeiteter Blender-Testshot von 5–10 Sekunden. [Cinematic-Prioritäten](CINEMATIC.md).
+## Qualitätsstand
 
-Die ausführliche ursprüngliche README wurde bytegenau als [TECHNIK.md](TECHNIK.md) erhalten. Sie beschreibt den vollständigen vorgesehenen Paketstand und seine bisherigen Prüfungen, nicht einen bereits abgeschlossenen Upload. Modelle werden weder neu zentriert noch gedreht, skaliert oder vereinfacht. Die vorhandene Background-Maskierung und Kantenabdichtung müssen erhalten bleiben.
+Die Geländeform und Gebäudekörper bilden eine gute geografische Grundlage. Sie sind noch kein fotorealistischer Cinematic: Wälder bleiben flache Luftbildstrukturen, Gebäude haben einfache Materialien ohne detaillierte Fassaden. Die Dorfansicht zeigt außerdem die Grenzen des Orthofotos bei niedriger Kamera und lokale Unterschiede zwischen Gebäudegrundflächen und Gelände.
 
-## Datenquelle
+Alle 19 GLBs sind gegenüber dem vollständigen Quellpaket byteidentisch. Kachelpositionen und Normalen stimmen exakt überein; die unabhängige Außenrandprüfung ergibt maximal 0,000031 m Höhenabweichung zum Master. Der Viewer behält Background-Maskierung, Gebäudefilterung und Kantenabdichtung unverändert. Details und aktuelle Browserprüfungen: [lokaler Prüfbericht](local_validation.json), [Paketprüfung](validation.json), [Browserprüfung](current_browser_validation.json).
 
-Datenquelle: LGL, www.lgl-bw.de, dl-de/by-2-0. Bearbeitete Geodaten: Ausschnitt, lokale Koordinaten, Triangulierung, DOP-Resampling/JPEG und Randangleichung. [LGL-Datenhinweis](build_tools/LGL_DATA_LICENSE.txt).
+Die ausführliche ursprüngliche README bleibt unverändert als [TECHNIK.md](TECHNIK.md) erhalten. Der bevorzugte nächste Schritt ist ein vollständig ausgearbeiteter Blender-Testshot von 5–10 Sekunden; danach erst die vollständige Filmsequenz. [Cinematic-Prioritäten](CINEMATIC.md).
+
+## Datenquelle und Lizenzen
+
+Datenquelle: LGL, www.lgl-bw.de, dl-de/by-2-0. Bearbeitete Geodaten: Ausschnitt, lokale Koordinaten, Triangulierung, DOP-Resampling/JPEG und Randangleichung. [LGL-Datenhinweis](build_tools/LGL_DATA_LICENSE.txt). Three.js steht unter [MIT](vendor/THREE_LICENSE.txt). Die vollständigen Roharchive sind nicht enthalten; Bezugsquellen und Prüfsummen stehen in Build-Werkzeugen und Paketprüfung.

@@ -1,0 +1,19 @@
+{
+  "origin_epsg25832": [462000, 5407000],
+  "height_base_nhn": 290,
+  "coordinate_formula": {"X": "E-462000", "Y": "NHN-290", "Z": "5407000-N"},
+  "lod0_terrain": "lod0/terrain_{x}_{y}.glb, x,y=0..3",
+  "lod0_buildings": "lod0/buildings.glb",
+  "lod1": "lod1/neusatz_master.glb",
+  "lod2": "lod2/neusatz_web.glb",
+  "composition": "In LOD0 mode replace LOD1 terrain under Hero rectangle and remove corresponding duplicate buildings. Do not render complete terrain layers simultaneously.",
+  "hero_rect_local_xz": [-997.5, -1198.5, 998.5, 797.5],
+  "transition_ring_m": 100,
+  "viewer_only_edge_skirt_depth_m": 0.5,
+  "camera_presets": {
+    "overview": {"position": [1250,1550,1750], "target": [0,320,-200]},
+    "approach": {"position": [-380,375,650], "target": [0,315,-170]},
+    "village": {"position": [95,313,-220], "target": [-40,298,-170]},
+    "seam": {"position": [-1120,610,970], "target": [-960,320,750]}
+  }
+}

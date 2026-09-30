@@ -1,0 +1,81 @@
+{
+  "checked_at": "2026-09-30T09:47:29.724Z",
+  "browser": "Codex in-app browser",
+  "views": [
+    {
+      "lod": 0,
+      "camera": "overview",
+      "status": "LOD0 bereit · 11.031.534 Dreiecke · 816 Hero-Gebäude · 1 m / 20 cm",
+      "screenshot": "screenshots/current_lod0_overview.png"
+    },
+    {
+      "lod": 0,
+      "camera": "approach",
+      "status": "LOD0 bereit · 11.031.534 Dreiecke · 816 Hero-Gebäude · 1 m / 20 cm",
+      "screenshot": "screenshots/current_lod0_approach.png"
+    },
+    {
+      "lod": 0,
+      "camera": "village",
+      "status": "LOD0 bereit · 11.031.534 Dreiecke · 816 Hero-Gebäude · 1 m / 20 cm",
+      "screenshot": "screenshots/current_lod0_village.png"
+    },
+    {
+      "lod": 0,
+      "camera": "seam",
+      "status": "LOD0 bereit · 11.031.534 Dreiecke · 816 Hero-Gebäude · 1 m / 20 cm",
+      "screenshot": "screenshots/current_lod0_seam.png"
+    },
+    {
+      "lod": 1,
+      "camera": "overview",
+      "status": "LOD1 bereit · 2.999.669 Dreiecke · 816 Hero-Gebäude · 1 m / 20 cm",
+      "screenshot": "screenshots/current_lod1_overview.png"
+    },
+    {
+      "lod": 1,
+      "camera": "approach",
+      "status": "LOD1 bereit · 2.999.669 Dreiecke · 816 Hero-Gebäude · 1 m / 20 cm",
+      "screenshot": "screenshots/current_lod1_approach.png"
+    },
+    {
+      "lod": 1,
+      "camera": "village",
+      "status": "LOD1 bereit · 2.999.669 Dreiecke · 816 Hero-Gebäude · 1 m / 20 cm",
+      "screenshot": "screenshots/current_lod1_village.png"
+    },
+    {
+      "lod": 1,
+      "camera": "seam",
+      "status": "LOD1 bereit · 2.999.669 Dreiecke · 816 Hero-Gebäude · 1 m / 20 cm",
+      "screenshot": "screenshots/current_lod1_seam.png"
+    },
+    {
+      "lod": 2,
+      "camera": "overview",
+      "status": "LOD2 bereit · 842.069 Dreiecke · 816 Hero-Gebäude · 1 m / 20 cm",
+      "screenshot": "screenshots/current_lod2_overview.png"
+    },
+    {
+      "lod": 2,
+      "camera": "approach",
+      "status": "LOD2 bereit · 842.069 Dreiecke · 816 Hero-Gebäude · 1 m / 20 cm",
+      "screenshot": "screenshots/current_lod2_approach.png"
+    },
+    {
+      "lod": 2,
+      "camera": "village",
+      "status": "LOD2 bereit · 842.069 Dreiecke · 816 Hero-Gebäude · 1 m / 20 cm",
+      "screenshot": "screenshots/current_lod2_village.png"
+    },
+    {
+      "lod": 2,
+      "camera": "seam",
+      "status": "LOD2 bereit · 842.069 Dreiecke · 816 Hero-Gebäude · 1 m / 20 cm",
+      "screenshot": "screenshots/current_lod2_seam.png"
+    }
+  ],
+  "return_to_lod0_status": "LOD0 bereit · 8.019.570 Dreiecke · 816 Hero-Gebäude · 1 m / 20 cm",
+  "observed_console_errors_and_warnings": [],
+  "note": "Actual UI camera and LOD controls exercised; screenshots saved. No hardware benchmark."
+}

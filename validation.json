@@ -1,0 +1,249 @@
+{
+  "source_files": [
+    {
+      "name": "LoD2_32_461_5406_2_bw.zip",
+      "bytes": 1817194,
+      "sha256": "c6163f9308d90e5fe4d60c92016e80e6dceaaedaf3f486b55e178f464f2f18be"
+    },
+    {
+      "name": "LoD2_32_461_5408_2_bw.zip",
+      "bytes": 592488,
+      "sha256": "68f80fa029db34118df9fe7cbf6608dcbac60aad7a4dd0b40301b3af6292b1b1"
+    },
+    {
+      "name": "dgm1_32_461_5406_2_bw.zip",
+      "bytes": 13958250,
+      "sha256": "afe24d5b73a7f9fd5b0bac92959e97ace1671d3d1f61f7e27b705f4eefebcdda"
+    },
+    {
+      "name": "dgm1_32_461_5408_2_bw.zip",
+      "bytes": 14304923,
+      "sha256": "609b27c227a81ccc88fe63bbdd18fb7babc33b5e96d9023aa32e8d51bf31de7e"
+    },
+    {
+      "name": "dop20rgb_32_461_5406_2_bw.zip",
+      "bytes": 230111674,
+      "sha256": "5c1a6d2fd41eaef5211f5e4da3876ebf64ffc235d8995aeb058b8b88a001b069"
+    },
+    {
+      "name": "dop20rgb_32_461_5408_2_bw.zip",
+      "bytes": 229086658,
+      "sha256": "9a096600aed0d0839a4cb2a5db47a5ae256a353a7305b7556e27a886fda00105"
+    }
+  ],
+  "dgm_missing": 0,
+  "terrain_triangles": 7968032,
+  "hero_raw_height_range_nhn": [
+    391.3399963378906,
+    654.5499877929688
+  ],
+  "master_sha256": "2410276ddc0e2efd73db3ef0f0eb9f64d4cc4f1fc44bec5e68aeef6cdff3e01b",
+  "transition_max_height_adjustment_m": 1.5319946289060908,
+  "outer_edge_height_error_m": 0.0,
+  "texture_coverage": [
+    {
+      "tile": [
+        0,
+        0
+      ],
+      "missing_pixels": 0
+    },
+    {
+      "tile": [
+        1,
+        0
+      ],
+      "missing_pixels": 0
+    },
+    {
+      "tile": [
+        2,
+        0
+      ],
+      "missing_pixels": 0
+    },
+    {
+      "tile": [
+        3,
+        0
+      ],
+      "missing_pixels": 0
+    },
+    {
+      "tile": [
+        0,
+        1
+      ],
+      "missing_pixels": 0
+    },
+    {
+      "tile": [
+        1,
+        1
+      ],
+      "missing_pixels": 0
+    },
+    {
+      "tile": [
+        2,
+        1
+      ],
+      "missing_pixels": 0
+    },
+    {
+      "tile": [
+        3,
+        1
+      ],
+      "missing_pixels": 0
+    },
+    {
+      "tile": [
+        0,
+        2
+      ],
+      "missing_pixels": 0
+    },
+    {
+      "tile": [
+        1,
+        2
+      ],
+      "missing_pixels": 0
+    },
+    {
+      "tile": [
+        2,
+        2
+      ],
+      "missing_pixels": 0
+    },
+    {
+      "tile": [
+        3,
+        2
+      ],
+      "missing_pixels": 0
+    },
+    {
+      "tile": [
+        0,
+        3
+      ],
+      "missing_pixels": 0
+    },
+    {
+      "tile": [
+        1,
+        3
+      ],
+      "missing_pixels": 0
+    },
+    {
+      "tile": [
+        2,
+        3
+      ],
+      "missing_pixels": 0
+    },
+    {
+      "tile": [
+        3,
+        3
+      ],
+      "missing_pixels": 0
+    }
+  ],
+  "tile_seams_max_position_error_m": 0.0,
+  "tile_seams_max_normal_error": 0.0,
+  "buildings": 816,
+  "building_polygons": 9601,
+  "polygon_holes": 0,
+  "untriangulated_polygons": [],
+  "exported_south_edge_height_error_m": 6.103515625e-05,
+  "texture_dimensions_verified": [
+    [
+      2499,
+      2499
+    ],
+    [
+      2499,
+      2499
+    ],
+    [
+      2499,
+      2499
+    ],
+    [
+      2499,
+      2499
+    ],
+    [
+      2499,
+      2499
+    ],
+    [
+      2499,
+      2499
+    ],
+    [
+      2499,
+      2499
+    ],
+    [
+      2499,
+      2499
+    ],
+    [
+      2499,
+      2499
+    ],
+    [
+      2499,
+      2499
+    ],
+    [
+      2499,
+      2499
+    ],
+    [
+      2499,
+      2499
+    ],
+    [
+      2499,
+      2499
+    ],
+    [
+      2499,
+      2499
+    ],
+    [
+      2499,
+      2499
+    ],
+    [
+      2499,
+      2499
+    ]
+  ],
+  "master_identical_to_input": true,
+  "independent_perimeter_max_height_error_m": 3.0517578125e-05,
+  "runtime_edge_overlap_m": 0.05,
+  "runtime_depth_bias": "Hero polygonOffsetFactor=-2, units=-2, avoids subpixel cracks",
+  "building_ground_vs_dgm1_m": {
+    "vertices": 5618,
+    "median_signed": -0.37017822265625,
+    "median_absolute": 0.37017822265625,
+    "p95_absolute": 2.3148681640624993,
+    "max_absolute": 4.65911865234375,
+    "note": "No vertical snapping: official LoD2 ground planes retain source NHN heights; terrain is actual DGM1."
+  },
+  "runtime_tile_skirt_depth_m": 0.5,
+  "visual_checks": {
+    "building_orientation": "Dorf-Nahansicht und Anflug gepr\u00fcft; keine Achsenvertauschung oder Rotation gegen\u00fcber Luftbild sichtbar",
+    "texture_sharpness": "LOD0/LOD1 mit identischer Dorfkamera verglichen: deutlich h\u00f6here Bodendetails bei LOD0",
+    "edge_seam": "Persistente feine Rasterl\u00fccken durch Viewer-Sch\u00fcrzen geschlossen; Randkamera erneut visuell gepr\u00fcft",
+    "limits": "Keine Vermessungskontrolle einzelner Fassaden. LoD2-Grundfl\u00e4chen und Orthophotos haben lokale, dokumentierte Quelldifferenzen."
+  }
+}
